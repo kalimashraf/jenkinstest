@@ -1,6 +1,6 @@
 pipeline {
  environment {
- imagename = "kalim034/jenkins-docker"
+ imagename = "kalim034/jenkinsDockerTest"
  registryCredential = 'kalim034'
  dockerImage = ''
  }
