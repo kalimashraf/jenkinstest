@@ -1,7 +1,7 @@
 pipeline {
  environment {
  imagename = "kalim034/jenkinsDockerTest"
- registryCredential = 'kalim034'
+ registryCredential = "kalim034"
  dockerImage = ''
  }
  agent any
